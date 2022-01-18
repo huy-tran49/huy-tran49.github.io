@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: local("Ubuntu\Ubuntu-Regular.ttf") format("ttf");
+}
+
+body{
+    background-color: #B3D1DE;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.menu{
+    float: right;
+    margin-right: 10px;
+    
+}
+
+ul.menu{
+    display: inline-flex;
+}
+
+li.menu{
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    list-style-type: none;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.icon{
+    border-radius: 10px;
+    max-width: 400px;
+    max-height: auto;
+}
